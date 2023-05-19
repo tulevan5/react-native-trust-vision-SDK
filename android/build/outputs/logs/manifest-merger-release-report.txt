@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml:3:11-62
+		INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+		ADDED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+		ADDED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml

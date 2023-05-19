@@ -1,0 +1,11 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.trustingsocial.reactnativetrustvision" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->/Users/lap02435/Documents/Tiki/2022/develop/source/android/Tiki-Android/react/node_modules/react-native-trust-vision-SDK/android/src/main/AndroidManifest.xml
+8
+9</manifest>

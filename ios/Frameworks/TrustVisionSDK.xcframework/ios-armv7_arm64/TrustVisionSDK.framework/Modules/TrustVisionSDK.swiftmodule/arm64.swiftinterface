@@ -1,0 +1,70 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TrustVisionSDK
+import Foundation
+import Swift
+import TrustVisionAPI
+import TrustVisionCoreSDK
+@_exported import TrustVisionSDK
+import UIKit
+public typealias TrustVisionProtocolType = TrustVisionCoreSDK.TrustVisionSdkUiOnlyProtocol
+@_inheritsConvenienceInitializers @objc public class TrustVisionSdkWrapper : ObjectiveC.NSObject {
+  @objc public static func initialize(clientSettingsJsonString: Swift.String?, localizationFiles: [TrustVisionCoreSDK.TVLocalizationFile]?, languageCode: Swift.String?, enableDebuggingLog: Swift.Bool, success: @escaping () -> Swift.Void, failure: @escaping (TrustVisionCoreSDK.TVError) -> Swift.Void, onEvent: @escaping (TrustVisionCoreSDK.TVTrackingEvent) -> Swift.Void)
+  @objc public static func initialize(clientSettings: TrustVisionAPI.TVClientSettingsResponse?, localizationFiles: [TrustVisionCoreSDK.TVLocalizationFile]?, languageCode: Swift.String?, enableDebuggingLog: Swift.Bool, success: @escaping () -> Swift.Void, failure: @escaping (TrustVisionCoreSDK.TVError) -> Swift.Void, onEvent: @escaping (TrustVisionCoreSDK.TVTrackingEvent) -> Swift.Void)
+  @objc public static func startIdCapturing(configuration: TrustVisionCoreSDK.TVIdCardConfiguration, framesRecordedCallback: @escaping TrustVisionCoreSDK.FramesRecordedCallback, success: @escaping (TrustVisionCoreSDK.TVDetectionResult) -> Swift.Void, failure: @escaping (TrustVisionCoreSDK.TVError) -> Swift.Void, cancellation: @escaping () -> Swift.Void) -> UIKit.UINavigationController
+  @objc public static func startSelfieCapturing(configuration: TrustVisionCoreSDK.TVSelfieConfiguration, framesRecordedCallback: @escaping TrustVisionCoreSDK.FramesRecordedCallback, success: @escaping (TrustVisionCoreSDK.TVDetectionResult) -> Swift.Void, failure: @escaping (TrustVisionCoreSDK.TVError) -> Swift.Void, cancellation: @escaping () -> Swift.Void) -> UIKit.UINavigationController
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_hasMissingDesignatedInitializers public class TrustVisionSdk : TrustVisionCoreSDK.BaseTrustVisionSdk, TrustVisionSDK.TrustVisionProtocolType {
+  @objc public static let shared: TrustVisionSDK.TrustVisionProtocolType
+  override public func injectClientConfig() -> TrustVisionCoreSDK.TVClientSpecificationConfigProtocol
+  @objc deinit
+  override public init(logServerBaseUrl: Swift.String?, logServerAccess: Swift.String?, logServerSecret: Swift.String?)
+}
+@_inheritsConvenienceInitializers public class TVClientTheme : TrustVisionCoreSDK.TVTheme {
+  override public var primaryColor: UIKit.UIColor {
+    get
+    set
+  }
+  override public var foregroundColor: UIKit.UIColor {
+    get
+    set
+  }
+  override public var backgroundColor: UIKit.UIColor {
+    get
+    set
+  }
+  override public var errorColor: UIKit.UIColor {
+    get
+    set
+  }
+  override public var frontSize: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  override public var idDetection: TrustVisionCoreSDK.TVIdDetectionTheme {
+    get
+  }
+  override public var livenessDetection: TrustVisionCoreSDK.TVLivenessDetectionTheme {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TVClientViewControllerBuilder : TrustVisionCoreSDK.TVViewControllerBuilderProtocol {
+  public func idDetectionVcType() -> TrustVisionCoreSDK.IDDetectionViewProtocol.Type
+  public func idDetectionVmType() -> TrustVisionCoreSDK.IDDetectionViewModelProtocol.Type
+  public func livenessDetectionVcType() -> TrustVisionCoreSDK.TVLivenessDetectionViewProtocol.Type
+  public func livenessDetectionVmType() -> TrustVisionCoreSDK.TVLivenessDetectionViewModelProtocol.Type
+  public func createLivenessDetectionResult() -> UIKit.UIViewController
+  public func createIDDetectionResult() -> UIKit.UIViewController
+  public func createLivenessStepView() -> TrustVisionCoreSDK.PureLayoutTVLivenessStepViewProtocol
+  public func createConfirmationButton(type: TrustVisionCoreSDK.TVConfirmationButtonType, didPressCallback: (() -> Swift.Void)?) -> UIKit.UIView
+  @objc deinit
+}
+extension TVSdkConstants.TSLocalizedString {
+  public static var livenessTitleLabel: Swift.String {
+    get
+  }
+}

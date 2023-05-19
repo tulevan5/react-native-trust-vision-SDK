@@ -1,0 +1,14 @@
+{
+  "name": "react-native-trust-vision-SDK",
+  "version": "2.1.9-Tiki",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": ""
+}
